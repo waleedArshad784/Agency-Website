@@ -1,6 +1,10 @@
-# React + Vite
+# Agency-Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Here I am building the agency website where we provide different services.
+
+## React + Vite
+
+This project uses a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
 Currently, two official plugins are available:
 
