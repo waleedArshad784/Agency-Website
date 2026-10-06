@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+@theme {
+  /* 1. COLORS, named by role */
+  --color-brand: #6F4E37;
+  --color-brand-dark: #4A3426;
+  --color-accent: #E8A33D;
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #F7F1EA;
+  --color-surface-dark: #2B2118;
+  --color-ink: #2B2118;
+  --color-ink-muted: #7A6B5F;
+
+  /* 2. TYPOGRAPHY */
+  --font-main: "Poppins", sans-serif;
+  --text-hero: 3.5rem;
+  --text-section: 2.25rem;
+  --text-card: 1.25rem;
+
+  /* 3. LAYOUT */
+  --container-content: 1100px;
+  --spacing-section: 5rem;
+
+  /* 4. SHAPE */
+  --radius-brand: 6px;
+}
+
+body {
+  font-family: var(--font-main);
+  color: var(--color-ink);
+  background: var(--color-surface);
+}
