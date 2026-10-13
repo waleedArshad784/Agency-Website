@@ -4,6 +4,7 @@ import Contact from './components/Contact/Contact.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import Hero from './components/Hero/Hero.jsx';
 import Navbar from './components/Navbar/Navbar.jsx';
+import header from './components/Navbar/header.jsx';
 import Portfolio from './components/Portfolio/Portfolio.jsx';
 import Process from './components/Process/Process.jsx';
 import Reviews from './components/Reviews/Reviews.jsx';
