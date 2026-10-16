@@ -28,7 +28,18 @@
 }
 
 body {
+  margin: 0;
   font-family: var(--font-main);
   color: var(--color-ink);
   background: var(--color-surface);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+::selection {
+  color: #212121;
+  background: #a2d84c;
 }

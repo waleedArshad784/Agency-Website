@@ -2,9 +2,8 @@ import About from './components/About/About.jsx';
 import CTA from './components/CTA/CTA.jsx';
 import Contact from './components/Contact/Contact.jsx';
 import Footer from './components/Footer/Footer.jsx';
-import Hero from './components/Hero/Hero.jsx';
+import Hero from './components/Hero/hero.jsx';
 import Navbar from './components/Navbar/Navbar.jsx';
-import header from './components/Navbar/header.jsx';
 import Portfolio from './components/Portfolio/Portfolio.jsx';
 import Process from './components/Process/Process.jsx';
 import Reviews from './components/Reviews/Reviews.jsx';
@@ -18,8 +17,8 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <About />
         <WhyUs />
+        <About />
         <Services />
         <Portfolio />
         <Process />
